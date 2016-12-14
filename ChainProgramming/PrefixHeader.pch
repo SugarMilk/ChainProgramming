@@ -1,0 +1,9 @@
+//
+//  PrefixHeader.pch
+//  ChainProgramming
+//
+//  Created by huangjian on 16/12/12.
+//  Copyright © 2016年 huangjian. All rights reserved.
+//
+
+#define KSLog(FORMAT, ...) fprintf(stderr,"%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
